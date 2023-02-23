@@ -1,0 +1,144 @@
+.form-name{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.form{
+    width: 500px;
+    height: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #44075e;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    width: 400px;
+    display: block;
+    margin: 30px 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ce0e38;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+input::placeholder{
+     color: #ce0e38;
+ letter-spacing: 2px;
+}
+textarea{
+margin: 10px 50px;
+width: 400px;
+height: 100px;
+outline: none;
+border: none;
+border-radius: 8px;
+border: 1px solid #ce0e38;
+background-color: transparent;
+padding-top: 10px;
+padding-left: 10px;
+color: #fff;
+letter-spacing: 1px;
+}    
+textarea::placeholder{
+color: #ce0e38;
+letter-spacing: 2px;
+}
+.button{
+margin-top: 20px;
+margin-left: 50px;
+}
+button{
+width: 140px;
+height: 30px;
+outline: none;
+border: none;
+border-radius: 5px;
+background-color: #ce0e38;
+color: #fff;
+letter-spacing: 2px;
+font-size: 14px;
+font-weight: normal;
+}
+.selection{
+margin: 30px 50px;
+}
+#gender{
+width: 120px;
+height: 26px;
+text-align: center;
+outline: none;
+border: none;
+border-radius: 3px;
+background-color: #ce0e38ef;
+color: #fff;
+font-weight: normal;
+letter-spacing: 1px;
+}
+#gender option{
+color: #ce0e38;
+padding: 2px 4px;
+background-color: #44075e;
+border: none;
+font-weight: normal;
+outline: none;
+}
+#food{
+width: 140px;
+height: 26px;
+margin-left: 50px;
+text-align: center;
+outline: none;
+border: none;
+border-radius: 3px;
+background-color: #ce0e38ef;
+color: #fff;
+font-weight: normal;
+letter-spacing: 1px;
+}
+#food option{
+color: #ce0e38;
+padding: 2px 4px;
+background-color: #44075e;
+border: none;
+font-weight: normal;
+outline: none;
+}
+.background-color{
+background-image: linear-gradient(to right bottom,#ce0e38,#64098b);
+}
+.table-data{
+width: 100%;
+height: 100vh;
+}
+.user_data_all{
+width: 100%;
+margin-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+table{
+border: 1px solid #fff;
+width: 80%;
+}
+tr,td{
+border: 1px solid #fff;
+padding: 5px;
+text-align: center;
+}
+th{
+border: 1px solid #fff;
+text-align: center;
+padding: 5px;
+}
